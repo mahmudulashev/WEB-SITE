@@ -7,7 +7,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   const message = document.getElementById('Contact-Message').value.trim();
 
   // Faqat hammasi to'ldirilganda yuboriladi va reset qilinadi
-  fetch(`https://api.telegram.org/bot7721996330:AAE-qS1-CRIiF-QRfMoSIys_OERzRo8ZzGg/sendMessage`, {
+  fetch(`https://api.telegram.org/7526214683:AAF-px-S4wDzKOsxFS81sc1mGjropn4vtac/sendMessage`, {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
