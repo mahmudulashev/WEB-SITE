@@ -5,7 +5,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   const phone = document.getElementById('phone').value.trim();
   const message = document.getElementById('Contact-Message').value.trim();
 
-  fetch(`https://api.telegram.org/7526214683:AAF-px-S4wDzKOsxFS81sc1mGjropn4vtac/sendMessage`, {
+  fetch(`https://api.telegram.org/bot7526214683:AAF-px-S4wDzKOsxFS81sc1mGjropn4vtac/sendMessage`, {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
