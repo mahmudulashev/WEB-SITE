@@ -3476,7 +3476,7 @@ figcaption {
 
 .section._0-top {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 .section._70 {
@@ -5891,7 +5891,7 @@ figcaption {
 .contact-form-right-side {
   border-top: 1px solid #ffffff26;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   display: flex;
 }
 
@@ -6371,7 +6371,7 @@ figcaption {
   }
 
   .footer {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 30px;
   }
 
